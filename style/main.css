@@ -51,3 +51,14 @@ header{
     border: 1px solid yellowgreen;
     color: yellowgreen;
 }
+
+footer{
+    width: 100%;
+    background: #ddff84;
+}
+
+footer .wrapper ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

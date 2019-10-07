@@ -99,3 +99,18 @@ section .wrapper aside ul li:before{
     position: absolute;
     left: -20px;
 }
+
+footer .wrapper ul li{
+    position: relative;
+}
+
+footer .wrapper ul li:before{
+    content: "";
+    background: url("../images/images1234.jpg") no-repeat center center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -5px;
+    top: 20px;
+}

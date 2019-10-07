@@ -19,6 +19,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     align-content: center;
     margin: 0 auto;
     background: rgba(236,48,68,.5);
@@ -61,4 +62,5 @@ footer .wrapper ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }

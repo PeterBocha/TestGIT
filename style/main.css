@@ -93,6 +93,9 @@ section .wrapper {
 }
 .wrapper aside{
     width: 60%;
+    background: brown;
+    padding: 10px 10px 10px 25px;
+    line-height: 23px;
 }
 
 .wrapper nav ul{
@@ -118,6 +121,7 @@ section .wrapper aside ul li:before{
     height: 15px;
     position: absolute;
     left: -20px;
+    border-radius: 10px 5px 0 6px;;
 }
 
 footer .wrapper ul li{

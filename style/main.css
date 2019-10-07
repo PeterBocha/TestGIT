@@ -37,7 +37,6 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
-
 .wrapper ul li a{
     display: block;
     padding: 15px;
@@ -63,4 +62,40 @@ footer .wrapper ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+section .wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper nav{
+    width: 35%
+}
+.wrapper aside{
+    width: 60%;
+}
+
+.wrapper nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+section .wrapper aside ul{
+    display: flex;
+    flex-direction: column;
+}
+section .wrapper aside ul li{
+    position: relative;
+}
+
+section .wrapper aside ul li:before{
+    content: "";
+    background: url("../images/images1234.jpg") no-repeat center center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -20px;
 }

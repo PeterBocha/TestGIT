@@ -63,6 +63,12 @@ footer .wrapper ul {
     justify-content: center;
     align-items: center;
 }
+footer .wrapper .footer-list{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 section .wrapper {
     display: flex;
     flex-direction: row;

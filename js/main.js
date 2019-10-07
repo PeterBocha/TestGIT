@@ -2,14 +2,15 @@ let list = document.querySelector('#list');
 let listChild = list.children;
 
 function creatspan(elem) {
-    let span = document.createElement('elem');
+    let span = document.createElement(elem);
     span.classList.add('nav');
     span.innerHTML = "v";
-    return span
+    return span;
 }
 
-for (let i = 0; i <= listChild.length; i++) {
-    listChild[i].appendChild(creatspan('SPAN'));
+for (let i = 0; i < listChild.length; i++) {
+    let currentelem = creatspan('SPAN');
+    listChild[i].appendChild(currentelem);
 }
 
 

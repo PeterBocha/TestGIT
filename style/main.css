@@ -1,19 +1,21 @@
-*,body,head{
+*, body, head {
     padding: 0;
     margin: 0;
     list-style-type: none;
     box-sizing: border-box;
 }
-img{
+
+img {
     width: 100%;
     height: 100%;
 }
 
-header{
+header {
     width: 100%;
     background: #ff856a;
 }
-.wrapper{
+
+.wrapper {
     max-width: 1280px;
     display: flex;
     flex-direction: row;
@@ -22,36 +24,40 @@ header{
     flex-wrap: wrap;
     align-content: center;
     margin: 0 auto;
-    background: rgba(236,48,68,.5);
+    background: rgba(236, 48, 68, .5);
     border-left: 2px solid cornflowerblue;
     border-right: 2px solid cornflowerblue;
     padding: 0 10px;
 }
-.logo{
+
+.logo {
     width: 70px;
     height: 70px;
 }
-.wrapper ul{
+
+.wrapper ul {
     width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.wrapper ul li a{
+
+.wrapper ul li a {
     display: block;
     padding: 15px;
     font-size: 20px;
     text-decoration: none;
-    color:wheat;
+    color: wheat;
     border-radius: 5px;
     border: 1px solid transparent;
     transition: .4s;
 }
-header .wrapper ul li{
+
+header .wrapper ul li {
     position: relative;
 }
 
-header .wrapper ul li a:before{
+header .wrapper ul li a:before {
     content: "";
     background: url("../images/images523.jpg") no-repeat center center;
     background-size: contain;
@@ -61,12 +67,13 @@ header .wrapper ul li a:before{
     left: -5px;
     top: 20px;
 }
-.wrapper ul li a:hover{
+
+.wrapper ul li a:hover {
     border: 1px solid yellowgreen;
     color: yellowgreen;
 }
 
-footer{
+footer {
     width: 100%;
     background: #ddff84;
 }
@@ -77,43 +84,46 @@ footer .wrapper ul {
     justify-content: center;
     align-items: center;
 }
-footer .wrapper .footer-list{
+
+footer .wrapper .footer-list {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 section .wrapper {
     display: flex;
     flex-direction: row;
 }
 
-.wrapper nav{
+.wrapper nav {
     width: 35%
 }
-.wrapper aside{
+
+.wrapper aside {
     width: 60%;
     background: brown;
     padding: 10px 10px 10px 25px;
     line-height: 23px;
 }
 
-.wrapper nav ul{
+.wrapper nav ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-
-section .wrapper aside ul{
+section .wrapper aside ul {
     display: flex;
     flex-direction: column;
 }
-section .wrapper aside ul li{
+
+section .wrapper aside ul li {
     position: relative;
 }
 
-section .wrapper aside ul li:before{
+section .wrapper aside ul li:before {
     content: "";
     background: url("../images/images1234.jpg") no-repeat center center;
     background-size: contain;
@@ -124,11 +134,11 @@ section .wrapper aside ul li:before{
     border-radius: 10px 5px 0 6px;;
 }
 
-footer .wrapper ul li{
+footer .wrapper ul li {
     position: relative;
 }
 
-footer .wrapper ul li:before{
+footer .wrapper ul li:before {
     content: "";
     background: url("../images/images1234.jpg") no-repeat center center;
     background-size: contain;
@@ -137,4 +147,22 @@ footer .wrapper ul li:before{
     position: absolute;
     left: -5px;
     top: 20px;
+}
+@media (min-width: 992px){
+    .nav{
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .nav {
+        display: block;
+        border: 1px dotted;
+        position: absolute;
+        padding: 5px 10px;
+        border-radius: 3px;
+        top: 13px;
+        right: -20px;
+        color: white;
+        font-family: sans-serif;
+    }
 }

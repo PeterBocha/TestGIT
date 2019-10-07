@@ -47,6 +47,20 @@ header{
     border: 1px solid transparent;
     transition: .4s;
 }
+header .wrapper ul li{
+    position: relative;
+}
+
+header .wrapper ul li a:before{
+    content: "";
+    background: url("../images/images523.jpg") no-repeat center center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -5px;
+    top: 20px;
+}
 .wrapper ul li a:hover{
     border: 1px solid yellowgreen;
     color: yellowgreen;
